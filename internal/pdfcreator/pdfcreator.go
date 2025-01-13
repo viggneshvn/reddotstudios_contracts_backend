@@ -233,7 +233,8 @@ func CreateContractsPage(details *contract.Contract) (*string, error) {
 		})
 		contractsPage.Col(3, func() {
 			//contractsPage.Text("Venmo - @reddot_studios", props.Text{Top: 0.5, Align: consts.Center})
-			contractsPage.Text("Zelle - 774-448-8352", props.Text{Top: 4, Align: consts.Center})
+			//contractsPage.Text("Zelle - 774-448-8352", props.Text{Top: 4, Align: consts.Center})
+			contractsPage.Text("TBD", props.Text{Top: 4, Align: consts.Center})
 		})
 		contractsPage.Col(2, func() {
 			contractsPage.Text("To be paid", props.Text{Top: 2, Align: consts.Center})
@@ -252,7 +253,7 @@ func CreateContractsPage(details *contract.Contract) (*string, error) {
 			contractsPage.Text(fmt.Sprintf("$%d", remainingProjectPayment), props.Text{Top: 1, Align: consts.Center})
 		})
 		contractsPage.Col(3, func() {
-			contractsPage.Text("Cash Only", props.Text{Top: 1, Align: consts.Center})
+			contractsPage.Text("TBD", props.Text{Top: 1, Align: consts.Center})
 		})
 		contractsPage.Col(2, func() {
 			contractsPage.Text("To be paid", props.Text{Top: 1, Align: consts.Center})
